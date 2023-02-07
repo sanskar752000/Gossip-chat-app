@@ -37,6 +37,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
+# Building the Realtime Chat App
 ### To create the starter app:
 
 1. In your terminal, type `npx create-next-app` to create an empty Next.js app.
