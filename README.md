@@ -36,3 +36,12 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+### To create the starter app:
+
+1. In your terminal, type `npx create-next-app` to create an empty Next.js app.
+2. Create a file called `.env` in the root of the directory, this is where we'll put the project's environment variables.
+3. Add your Ably API key to the .env file:
+```
+ABLY_API_KEY=your-ably-api-key:goes-here
+```
