@@ -62,6 +62,7 @@ const AblyChatComponent = () => {
                     className={styles.textarea}
                 ></textarea>
                 <button type="submit" className={styles.button} disabled={messageTextIsEmpty}>Send</button>
+                <br />
             </form>
         </div>
     )
