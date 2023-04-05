@@ -58,7 +58,7 @@ const AblyChatComponent = () => {
                     value={messageText}
                     placeholder="Type your gossip here..."
                     onChange={event => setMessageText(event.target.value)}
-                    onKeyPress={handleKeyPress}
+                    onKeyDown={handleKeyPress}
                     className={styles.textarea}
                 ></textarea>
                 <button type="submit" className={styles.button} disabled={messageTextIsEmpty}>Send</button>
